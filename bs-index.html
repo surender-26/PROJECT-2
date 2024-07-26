@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./Html and CSS/bootstrap.min.css">
+    <!-- fontawesome styles -->
+    <link rel="stylesheet" href="./Html and CSS/css/all.min.css">
+    <style>
+        .bg-color{
+            background: radial-gradient(circle, rgba(63, 131, 150, 1) 0%, rgba(29, 70, 97, 1) 99%);
+
+        }
+        .about{
+            background-image: url(https://www.hdwallpapers.in/white_leaves_branches_white_background_hd_white_background-wallpapers.html);
+        }
+        #hero img{
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bolder fs-2" href="#hero">Port<span class="text-primary">folio</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fs-5 fw-semibold">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">About</a>
+                    </li>
+                    <li class="nav-item mx-5">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- herosection -->
+<div class="container-fluid bg-color p-5" id="hero">
+    <div class="container text-center text-white">
+    <img src="./Html and CSS/images/smile.jpg" alt="">
+    <h2 class="fw-bold fs-1">T.NAGA SURENDAR REDDY</h2>
+    <h4 class="pb-4 fs-5 text-warning">Front-end Web Developer</h4>
+    <a href="#" class="btn btn-primary me-3">Hire Me</a>
+    <a href="#" class="btn btn-outline-light">Download My CV</a>
+    </div>
+
+    <!-- about -->
+    <div class="container my-5" id="about">
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-5 about bg-light rounded-4 shadow">
+                <div class="d-flex flex-column flex-md-row align-items-center">
+                    <img src="./Html and CSS/images/smile.jpg" alt="">
+                    <div>
+                        <h4 class="fw-bold fs-2">About Me</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque nobis ratione voluptatem assumenda, nesciunt</p>
+                        <a href="#" class="btn btn-outline-primary mt-3 fw-bold">Download my CV</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    <!-- Skills -->
+    <div class="container" id="skills">
+        <h2 class="text-center display-2 fw-bold mb-5 text-light">My Skills</h2>
+        <div class="row">
+            <div class="col-md 2 col-5 text-center m-2 bg-light rounded-4 p-3 shadow">
+                <i class="fa-brands fa-html5 display-1"></i>
+                <h2 class="fs-5 fw-bold pt-3">HTML</h2>
+            </div>
+            <div class="col-md-2 col-5 text-center m-2 bg-light rounded-4 p-3 shadow">
+                <i class="fa-brands fa-css3-alt display-1"></i>
+                <h2 class="fs-6 fs-md-5 fw-bold pt-3">CSS</h2>
+            </div>
+            <div class="col-md-2 col-5 text-center m-2 bg-light rounded-4 p-3 shadow">
+                <i class="fa-brands fa-js display-1"></i>
+                <h2 class="fs-6 fs-md-5 fw-bold pt-3">JavaScript</h2>
+            </div>
+            <div class="col-md-2 col-5 text-center m-2 bg-light rounded-4 p-3 shadow">
+                <i class="fa-brands fa-bootstrap display-1"></i>
+                <h2 class="fs-6 fs-md-5 fw-bold pt-3">BootStrap</h2>
+            </div>
+            <div class="col-md-2 col-5 text-center m-2 bg-light rounded-4 p-3 shadow">
+                <i class="fa-brands fa-github display-1"></i>
+                <h2 class="fs-6 fs-md-5 fw-bold pt-3">GitHub</h2>
+            </div>
+            <div class="col-md-2 col-5 text-center m-2 bg-light rounded-4 p-3 shadow">
+                <i class="fa-brands fa-uikit display-1"></i>
+                <h2 class="fs-6 fs-md-5 fw-bold pt-3">UI/UX Design</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row py-5">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 p-5 bg-light rounded-4 shadow">
+                <div class="d-flex flex-column flex-md-row align-items-center">
+                    <img src="./Html and CSS/images/smile.jpg" alt="">
+                    <div>
+                        <h4 class="fw-bold fs-2">What can I do?</h4>
+                        <ul>
+                            <li>Static Web Design</li>
+                            <li>UI/UX Design</li>
+                            <li>Responsive Web Design</li>
+                            <li>custom layout Design</li>
+                            <li>Graphic Design</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-primary mt-3 fw-bold">Download my CV</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <h2 class="display-2 fw-bold text-center text-white mb-4">Contact Me</h2>
+        <div class="row mt-5">
+            <div class="col-md-1"></div>
+            <div class="col-md-4 pt-5">
+                <div class="d-flex mb-4 justify-content-evenly bg-light p-3 rounded-4">
+                    <i class="fa-solid fa-phone-volume fs-1"></i>
+                    <div>
+                        <h5>Call:</h5>
+                        <p>+91-9988776655</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-evenly bg-light p-3 rounded-4">
+                    <i class="fa-solid fa-envelope fs-1"></i>
+                    <div>
+                        <h5>Mail</h5>
+                        <p>info@gmail.com</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 p-5">
+                <form class="row g-3">
+                    <div class="col-md-12">
+                      <input type="text" class="form-control" placeholder="Enter Name">
+                    </div>
+                    <div class="col-md-6">
+                      <input type="email" class="form-control" placeholder="Enter Email ID">
+                    </div>
+                    <div class="col-md-6">
+                      <input type="tel" class="form-control" placeholder="Enter Mobile Number">
+                    </div>
+                    <div class="col-md-12">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+</div>
+
+    <div class="container-fluid bg-color">
+        <div class="container text-center text-light p-5">
+            <h3 class="p-2">@Surendar</h3>
+            <h6 class="fw-lighter">Frontend Web Developer</h6>
+            <div class="d-flex justify-content-center">
+                <i class="fa-brands p-2 fs-3 fa-github"></i>
+                <i class="fa-brands p-2 fs-3 fa-linkedin"></i>
+                <i class="fa-brands p-2 fs-3 fa-square-instagram"></i>
+                <i class="fa-brands p-2 fs-3 fa-discord"></i>
+            </div>
+            <p>Copyright&copy;<span id="copyright"></span></p>
+        </div>
+    </div>
+    <!-- bootstrap js bundle -->
+    <script src="./Html and CSS/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('copyright').innerText=new Date().getFullYear();
+    </script>
+</body>
+</html>
